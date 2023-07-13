@@ -8,7 +8,7 @@ export default function Input() {
     }
 
     return (
-        <div>
+        <div style={{textAlign:'center'}}>
             <input value={text}
                 onChange={handleChange}
             />
